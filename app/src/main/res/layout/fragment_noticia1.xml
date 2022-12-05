@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="false">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Noticia1">
+
+    <ImageView
+        android:id="@+id/ImagenNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:src="@drawable/noticia1_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/titularNoticia"
+        />
+    <TextView
+        android:id="@+id/titularNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="BUFFON: «ESPERO QUE DYBALA PUEDA JUGAR LA COPA DEL MUNDO»"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/ImagenNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/FuenteNoticia"
+        />
+    <View
+        android:id="@+id/FuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/titularNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Noticia"
+        />
+    <ImageView
+        android:id="@+id/ImagenFuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_fuente_noticia"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="@id/FuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintRight_toLeftOf="@id/NombreFuente"/>
+    <TextView
+        android:id="@+id/NombreFuente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="TOP GOL"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toTopOf="@id/FechaNoticia"
+        />
+    <TextView
+        android:id="@+id/FechaNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="10 de octubre de 2022"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/NombreFuente"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        />
+
+    <!--    \n\n    -->
+
+    <TextView
+        android:id="@+id/Noticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Gigi Buffon espera que Paulo Dybala no se pierda la Copa del Mundo y cree que la Juventus debería confiar en Max Allegri. El legendario portero habló hoy durante el Premi Scopigno e Pulici en Roma.
+
+\n\nLos fanáticos de la Juventus y los medios han criticado a Max Allegri después de un mal comienzo de temporada en la Serie A y la Champions League, pero Buffon cree que la Vieja Dama debería confiar en el entrenador. “La Juventus está teniendo algunos problemas, pero mucho depende de las lesiones, como dijo Allegri.
+
+\n\n“Confío en que Allegri resolverá la situación y que los muchachos obtendrán la satisfacción que se merecen”. Buffon es uno de los jugadores más emblemáticos de la Juventus y tiene el récord de más títulos de la Serie A ganados en el club, 10, incluidos cinco con Allegri.
+
+\n\nEl ganador de la Copa del Mundo de Italia 2006 jugó 168 partidos con el táctico italiano manteniendo 88 porterías a cero. Uno de los excompañeros de equipo de Buffon, Dybala, se unió a la Roma en el verano, pero podría perderse la Copa del Mundo después de sufrir una presunta lesión en el cuádriceps contra Lecce ayer.
+
+\n\n“Solo puedo felicitarlo por lo que está haciendo. Nadie tiene dudas sobre sus cualidades. Necesitaba un nuevo desafío y eligió uno emocionante en Roma. Está contento con lo que está haciendo y espero que no se pierda la Copa del Mundo”, dijo Buffon. Buffon también elogió al portero del PSG, Gigio Donnarumma, diciendo que es el ‘mejor portero’ para reemplazarlo entre los palos de los Azzurri."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Menciones"
+        />
+    <TextView
+        android:id="@+id/Menciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENCIONADOS EN ESTE ARTICULO"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Noticia"
+        android:textStyle="bold"
+        android:textColor="#9D142F"
+        />
+    <View
+        android:id="@+id/viewMencionSeleccion"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menciones"
+        app:layout_constraintBottom_toTopOf="@id/viewMencionjugador"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewSeleccion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/argentina_image"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="ARGENTINA"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintRight_toRightOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="@id/viewMencionSeleccion"
+        />
+    <View
+        android:id="@+id/viewMencionjugador"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_jugador_mencionado"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dybala"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionjugador"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionjugador"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="DYBALA"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionjugador"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionjugador"
+        app:layout_constraintRight_toRightOf="@id/viewMencionjugador"
+        app:layout_constraintLeft_toLeftOf="@id/viewMencionjugador"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

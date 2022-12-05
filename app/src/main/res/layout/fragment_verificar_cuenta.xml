@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VerificarCuenta">
+
+    <ImageView
+        android:id="@+id/imagenVerificado"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verificar"
+        app:layout_constraintBottom_toTopOf="@id/mensajeVerificacion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:id="@+id/mensajeVerificacion"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:text="Introduce el codigo de verificación que hemos enviado a tu E-mail para asi poder verificar la tu cuenta"
+        android:textSize="17dp"
+        app:layout_constraintTop_toBottomOf="@id/imagenVerificado"
+        android:textColor="#9D142F"
+        />
+
+    <View
+        android:id="@+id/codigoVerificacion"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mensajeVerificacion"
+        />
+
+    <TextView
+        android:id="@+id/texto_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/codigoVerificacion"
+        app:layout_constraintStart_toStartOf="@id/codigoVerificacion"
+        app:layout_constraintBottom_toTopOf="@id/edit_text_codigo"
+        android:text="Codigo de verificación"
+        android:textColor="#9D142F"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_codigo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/texto_codigo"
+        app:layout_constraintBottom_toBottomOf="@id/codigoVerificacion"
+        app:layout_constraintStart_toStartOf="@id/codigoVerificacion"
+        android:background="@drawable/edit_text_style"
+        android:elevation="5dp"
+        android:inputType="date"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#9D142F"
+        />
+    <View
+        android:id="@+id/view_botones_desplazamiento"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <ImageButton
+        android:id="@+id/boton_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/view_botones_desplazamiento"
+        app:layout_constraintTop_toTopOf="@id/view_botones_desplazamiento"
+        app:layout_constraintBottom_toBottomOf="@id/view_botones_desplazamiento"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:background="@color/white"
+        />
+    <ImageButton
+        android:id="@+id/boton_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/view_botones_desplazamiento"
+        app:layout_constraintTop_toTopOf="@id/view_botones_desplazamiento"
+        app:layout_constraintBottom_toBottomOf="@id/view_botones_desplazamiento"
+        android:src="@drawable/ic_baseline_check_24"
+        android:background="@color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

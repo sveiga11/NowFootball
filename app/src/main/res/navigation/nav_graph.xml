@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_inicio_app"
+    app:startDestination="@id/seleccion1">
+
+    <fragment
+        android:id="@+id/inicio_on_delay2"
+        android:name="com.example.nowfootball.inicio_on_delay2"
+        android:label=""
+        tools:layout="@layout/fragment_inicio_on_delay2" />
+    <activity
+        android:id="@+id/fragment_inicio_on_delay1"
+        android:name="com.example.nowfootball.MainActivity"
+        android:label=""
+        tools:layout="@layout/fragment_inicio_on_delay1" />
+    <fragment
+        android:id="@+id/opcion_de_inicio"
+        android:name="com.example.nowfootball.Opcion_de_inicio"
+        android:label=""
+        tools:layout="@layout/fragment_opcion_de_inicio" >
+        <action
+            android:id="@+id/action_opcion_de_inicio_to_inicio_de_sesion"
+            app:destination="@id/inicio_de_sesion" />
+        <action
+            android:id="@+id/action_opcion_de_inicio_to_crearCuenta"
+            app:destination="@id/crearCuenta" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/inicio_de_sesion"
+        android:name="com.example.nowfootball.Inicio_de_sesion"
+        android:label=""
+        tools:layout="@layout/fragment_inicio_de_sesion" >
+        <action
+            android:id="@+id/action_inicio_de_sesion_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_inicio_de_sesion_to_recuperarContrasena1"
+            app:destination="@id/recuperarContrasena1"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+
+    </fragment>
+    <fragment
+        android:id="@+id/descubrir"
+        android:name="com.example.nowfootball.Bottom1Fragment"
+        android:label="DESCUBRIR"
+        tools:layout="@layout/descubrir" >
+        <action
+            android:id="@+id/action_descubrir_to_listaA_Z"
+            app:destination="@id/listaA_Z" />
+        <action
+            android:id="@+id/action_descubrir_to_lista_ranking_selecciones"
+            app:destination="@id/lista_ranking_selecciones" />
+        <action
+            android:id="@+id/action_descubrir_to_lista_jugadores_top"
+            app:destination="@id/lista_jugadores_top" />
+        <action
+            android:id="@+id/action_descubrir_to_listaJovenesPromesas"
+            app:destination="@id/listaJovenesPromesas" />
+        <action
+            android:id="@+id/action_descubrir_to_listaConcacaf"
+            app:destination="@id/listaConcacaf" />
+        <action
+            android:id="@+id/action_descubrir_to_listaConmebol"
+            app:destination="@id/listaConmebol" />
+        <action
+            android:id="@+id/action_descubrir_to_listaUefa"
+            app:destination="@id/listaUefa" />
+        <action
+            android:id="@+id/action_descubrir_to_listaCaf"
+            app:destination="@id/listaCaf" />
+        <action
+            android:id="@+id/action_descubrir_to_listaAfc"
+            app:destination="@id/listaAfc" />
+    </fragment>
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.nowfootball.Bottom2Fragment"
+        android:label="NOWFOOTBALL"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/action_home_to_noticia1"
+            app:destination="@id/noticia1" />
+        <action
+            android:id="@+id/action_home_to_noticia2"
+            app:destination="@id/noticia2" />
+        <action
+            android:id="@+id/action_home_to_noticia5"
+            app:destination="@id/noticia5" />
+        <action
+            android:id="@+id/action_home_to_noticia3"
+            app:destination="@id/noticia3" />
+        <action
+            android:id="@+id/action_home_to_noticia4"
+            app:destination="@id/noticia4" />
+    </fragment>
+    <fragment
+        android:id="@+id/partidos"
+        android:name="com.example.nowfootball.Bottom3Fragment"
+        android:label="PARTIDOS"
+        tools:layout="@layout/partidos" >
+        <action
+            android:id="@+id/action_partidos_to_partido1"
+            app:destination="@id/partido1Button" />
+        <action
+            android:id="@+id/action_partidos_to_partido22"
+            app:destination="@id/partido2Button" />
+        <action
+            android:id="@+id/action_partidos_to_partido5"
+            app:destination="@id/partido5" />
+        <action
+            android:id="@+id/action_partidos_to_partido4"
+            app:destination="@id/partido4" />
+        <action
+            android:id="@+id/action_partidos_to_partido52"
+            app:destination="@id/partido5" />
+        <action
+            android:id="@+id/action_partidos_to_partido3"
+            app:destination="@id/partido3Button" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticiasMarcadas"
+        android:name="com.example.nowfootball.NoticiasMarcadas"
+        android:label=""
+        tools:layout="@layout/fragment_noticias_marcadas" >
+        <action
+            android:id="@+id/action_noticiasMarcadas_to_noticia1"
+            app:destination="@id/noticia1" />
+        <action
+            android:id="@+id/action_noticiasMarcadas_to_noticia2"
+            app:destination="@id/noticia2" />
+    </fragment>
+    <fragment
+        android:id="@+id/siguiendo"
+        android:name="com.example.nowfootball.Siguiendo"
+        android:label=""
+        tools:layout="@layout/fragment_siguiendo" >
+        <action
+            android:id="@+id/action_siguiendo_to_jugador1"
+            app:destination="@id/jugador1" />
+        <action
+            android:id="@+id/action_siguiendo_to_seleccion1"
+            app:destination="@id/seleccion1" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearCuenta"
+        android:name="com.example.nowfootball.CrearCuenta"
+        android:label=""
+        tools:layout="@layout/fragment_crear_cuenta" >
+        <action
+            android:id="@+id/action_crearCuenta_to_verificarCuenta"
+            app:destination="@id/verificarCuenta"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_crearCuenta_to_opcion_de_inicio"
+            app:destination="@id/opcion_de_inicio"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/editarPerfil"
+        android:name="com.example.nowfootball.EditarPerfil"
+        android:label=""
+        tools:layout="@layout/fragment_editar_perfil" >
+        <action
+            android:id="@+id/action_editarPerfil_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/recuperarContrasena1"
+        android:name="com.example.nowfootball.RecuperarContrasena1"
+        android:label=""
+        tools:layout="@layout/fragment_recuperar_contrasena1" >
+        <action
+            android:id="@+id/action_recuperarContrasena1_to_recuperarContrasena2"
+            app:destination="@id/recuperarContrasena2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_recuperarContrasena1_to_inicio_de_sesion"
+            app:destination="@id/inicio_de_sesion"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/recuperarContrasena3"
+        android:name="com.example.nowfootball.RecuperarContrasena3"
+        android:label=""
+        tools:layout="@layout/fragment_recuperar_contrasena3" >
+        <action
+            android:id="@+id/action_recuperarContrasena3_to_recuperarContrasena2"
+            app:destination="@id/recuperarContrasena2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_recuperarContrasena3_to_home"
+            app:destination="@id/home"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/recuperarContrasena2"
+        android:name="com.example.nowfootball.recuperarContrasena2"
+        android:label=""
+        tools:layout="@layout/fragment_recuperar_contrasena2" >
+        <action
+            android:id="@+id/action_recuperarContrasena2_to_recuperarContrasena3"
+            app:destination="@id/recuperarContrasena3"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_recuperarContrasena2_to_recuperarContrasena1"
+            app:destination="@id/recuperarContrasena1"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/verificarCuenta"
+        android:name="com.example.nowfootball.VerificarCuenta"
+        android:label=""
+        tools:layout="@layout/fragment_verificar_cuenta" >
+        <action
+            android:id="@+id/action_verificarCuenta_to_home"
+            app:destination="@id/home"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_verificarCuenta_to_crearCuenta"
+            app:destination="@id/crearCuenta"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/listaA_Z"
+        android:name="com.example.nowfootball.ListaA_Z"
+        android:label=""
+        tools:layout="@layout/fragment_lista_a__z" />
+    <fragment
+        android:id="@+id/noticia1"
+        android:name="com.example.nowfootball.Noticia1"
+        android:label=""
+        tools:layout="@layout/fragment_noticia1" />
+    <fragment
+        android:id="@+id/partido1Button"
+        android:name="com.example.nowfootball.Partido1"
+        android:label=""
+        tools:layout="@layout/fragment_partido1" />
+    <fragment
+        android:id="@+id/clasificacion"
+        android:name="com.example.nowfootball.Clasificacion"
+        android:label=""
+        tools:layout="@layout/fragment_clasificacion" >
+        <action
+            android:id="@+id/action_clasificacion_to_seleccion2"
+            app:destination="@id/seleccion2" />
+        <action
+            android:id="@+id/action_clasificacion_to_seleccion1"
+            app:destination="@id/seleccion1" />
+    </fragment>
+    <fragment
+        android:id="@+id/jugador1"
+        android:name="com.example.nowfootball.Jugador1"
+        android:label=""
+        tools:layout="@layout/fragment_jugador1" />
+    <fragment
+        android:id="@+id/seleccion1"
+        android:name="com.example.nowfootball.Seleccion1"
+        android:label=""
+        tools:layout="@layout/fragment_seleccion1" >
+        <action
+            android:id="@+id/action_seleccion1_to_clasificacion"
+            app:destination="@id/clasificacion" />
+        <action
+            android:id="@+id/action_seleccion1_to_todosLosPartidosSel1"
+            app:destination="@id/todosLosPartidosSel1" />
+    </fragment>
+    <fragment
+        android:id="@+id/todosLosPartidosSel1"
+        android:name="com.example.nowfootball.TodosLosPartidosSel1"
+        android:label=""
+        tools:layout="@layout/fragment_todos_los_partidos_sel1" >
+        <action
+            android:id="@+id/action_todosLosPartidosSel1_to_partido22"
+            app:destination="@id/partido2Button" />
+    </fragment>
+    <fragment
+        android:id="@+id/lista_ranking_selecciones"
+        android:name="com.example.nowfootball.lista_ranking_selecciones"
+        android:label=""
+        tools:layout="@layout/fragment_lista_ranking_selecciones" />
+    <fragment
+        android:id="@+id/lista_jugadores_top"
+        android:name="com.example.nowfootball.Lista_jugadores_top"
+        android:label=""
+        tools:layout="@layout/fragment_lista_jugadores_top" />
+    <fragment
+        android:id="@+id/listaJovenesPromesas"
+        android:name="com.example.nowfootball.ListaJovenesPromesas"
+        android:label=""
+        tools:layout="@layout/fragment_lista_jovenes_promesas" />
+    <fragment
+        android:id="@+id/listaConcacaf"
+        android:name="com.example.nowfootball.ListaConcacaf"
+        android:label=""
+        tools:layout="@layout/fragment_lista_concacaf"
+        android:background="@drawable/background_lista_concacaf"/>
+    <fragment
+        android:id="@+id/listaConmebol"
+        android:name="com.example.nowfootball.ListaConmebol"
+        android:label=""
+        tools:layout="@layout/fragment_lista_conmebol" />
+    <fragment
+        android:id="@+id/listaUefa"
+        android:name="com.example.nowfootball.ListaUefa"
+        android:label=""
+        tools:layout="@layout/fragment_lista_uefa" />
+    <fragment
+        android:id="@+id/listaCaf"
+        android:name="com.example.nowfootball.ListaCaf"
+        android:label=""
+        tools:layout="@layout/fragment_lista_caf" />
+    <fragment
+        android:id="@+id/listaAfc"
+        android:name="com.example.nowfootball.ListaAfc"
+        android:label=""
+        tools:layout="@layout/fragment_lista_afc" />
+    <fragment
+        android:id="@+id/noticia2"
+        android:name="com.example.nowfootball.Noticia2"
+        android:label=""
+        tools:layout="@layout/fragment_noticia2" />
+    <fragment
+        android:id="@+id/noticia3"
+        android:name="com.example.nowfootball.Noticia3"
+        android:label=""
+        tools:layout="@layout/fragment_noticia3" />
+    <fragment
+        android:id="@+id/noticia4"
+        android:name="com.example.nowfootball.Noticia4"
+        android:label=""
+        tools:layout="@layout/fragment_noticia4" />
+    <fragment
+        android:id="@+id/noticia5"
+        android:name="com.example.nowfootball.Noticia5"
+        android:label=""
+        tools:layout="@layout/fragment_noticia5" />
+    <fragment
+        android:id="@+id/jugador2"
+        android:name="com.example.nowfootball.Jugador2"
+        android:label=""
+        tools:layout="@layout/fragment_jugador2" />
+    <fragment
+        android:id="@+id/jugador3"
+        android:name="com.example.nowfootball.Jugador3"
+        android:label=""
+        tools:layout="@layout/fragment_jugador3" />
+    <fragment
+        android:id="@+id/jugador4"
+        android:name="com.example.nowfootball.Jugador4"
+        android:label=""
+        tools:layout="@layout/fragment_jugador4" />
+    <fragment
+        android:id="@+id/seleccion2"
+        android:name="com.example.nowfootball.Seleccion2"
+        android:label=""
+        tools:layout="@layout/fragment_seleccion2" >
+        <action
+            android:id="@+id/action_seleccion2_to_clasificacion"
+            app:destination="@id/clasificacion" />
+        <action
+            android:id="@+id/action_seleccion2_to_todosLosPartidosSel2"
+            app:destination="@id/todosLosPartidosSel2" />
+    </fragment>
+    <fragment
+        android:id="@+id/todosLosPartidosSel2"
+        android:name="com.example.nowfootball.TodosLosPartidosSel2"
+        tools:layout="@layout/fragment_todos_los_partidos_sel2" >
+        <action
+            android:id="@+id/action_todosLosPartidosSel2_to_partido1"
+            app:destination="@id/partido1Button" />
+    </fragment>
+    <fragment
+        android:id="@+id/partido2Button"
+        android:name="com.example.nowfootball.Partido2"
+        android:label=""
+        tools:layout="@layout/fragment_partido2" />
+    <fragment
+        android:id="@+id/partido3Button"
+        android:name="com.example.nowfootball.Partido3"
+        android:label=""
+        tools:layout="@layout/fragment_partido3" />
+    <fragment
+        android:id="@+id/partido4"
+        android:name="com.example.nowfootball.Partido4"
+        android:label=""
+        tools:layout="@layout/fragment_partido4" />
+    <fragment
+        android:id="@+id/partido5"
+        android:name="com.example.nowfootball.Partido5"
+        android:label=""
+        tools:layout="@layout/fragment_partido5" />
+</navigation>

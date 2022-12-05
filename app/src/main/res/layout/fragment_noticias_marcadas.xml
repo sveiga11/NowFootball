@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NoticiasMarcadas">
+
+    <TextView
+        android:id="@+id/titulo_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="SIGUIENDO"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_baseline_bookmark_border_30"
+        android:drawableTint="#9D142F"
+        app:layout_constraintBottom_toTopOf="@id/noticia1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        android:textColor="#9D142F"
+        />
+
+    <View
+        android:id="@+id/noticia1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="300dp"
+        android:background="@drawable/style_noticias"
+        app:layout_constraintTop_toBottomOf="@id/titulo_lista"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/noticia2"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/portada_noticia1"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="10dp"
+        android:src="@drawable/noticia1_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/noticia1"
+        app:layout_constraintRight_toRightOf="@id/noticia1"
+        app:layout_constraintTop_toTopOf="@id/noticia1"
+        app:shapeAppearanceOverlay="@style/SpecificCornerRounded" />
+
+    <TextView
+        android:id="@+id/titulo_noticia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="BUFFON: «ESPERO QUE DYBALA PUEDA JUGAR LA
+COPA DEL MUNDO»"
+        android:elevation="5dp"
+        app:layout_constraintTop_toBottomOf="@id/portada_noticia1"
+        app:layout_constraintLeft_toLeftOf="@id/noticia1"
+        app:layout_constraintRight_toRightOf="@id/noticia1"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/icono_espectadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_remove_red_eye_24"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia1"
+        app:layout_constraintBottom_toBottomOf="@id/noticia1"
+        app:layout_constraintLeft_toLeftOf="@id/noticia1"
+        android:layout_margin="20dp"
+        android:elevation="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:elevation="5dp"
+        android:text="305"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/noticia1"
+        app:layout_constraintLeft_toRightOf="@id/icono_espectadores"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_noticia1"
+        />
+
+    <ImageView
+        android:id="@+id/icono_compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_24"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia1"
+        app:layout_constraintBottom_toBottomOf="@id/noticia1"
+        app:layout_constraintRight_toRightOf="@id/noticia1"
+        android:elevation="5dp"
+        />
+    <ImageView
+        android:id="@+id/icono_marcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_bookmark_border_24"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia1"
+        app:layout_constraintBottom_toBottomOf="@id/noticia1"
+        app:layout_constraintRight_toLeftOf="@id/icono_compartir"
+        android:elevation="5dp"
+        />
+
+    <View
+        android:id="@+id/noticia2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="300dp"
+        android:background="@drawable/style_noticias"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@id/noticia1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/portada_noticia2"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="10dp"
+        android:src="@drawable/noticia2_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/noticia2"
+        app:layout_constraintRight_toRightOf="@id/noticia2"
+        app:layout_constraintTop_toTopOf="@id/noticia2"
+        app:shapeAppearanceOverlay="@style/SpecificCornerRounded" />
+
+    <TextView
+        android:id="@+id/titulo_noticia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="SEIS CIUDADES DEL MUNDO ALBERGARÁN EL FIFA FAN FESTIVAL DURANTE EL MUNDIAL DE QATAR..."
+        android:elevation="5dp"
+        app:layout_constraintTop_toBottomOf="@id/portada_noticia2"
+        app:layout_constraintLeft_toLeftOf="@id/noticia2"
+        app:layout_constraintRight_toRightOf="@id/noticia2"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/icono_espectadores2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_remove_red_eye_24"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia2"
+        app:layout_constraintBottom_toBottomOf="@id/noticia2"
+        app:layout_constraintLeft_toLeftOf="@id/noticia2"
+        android:layout_margin="20dp"
+        android:elevation="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:elevation="5dp"
+        android:text="524"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/noticia2"
+        app:layout_constraintLeft_toRightOf="@id/icono_espectadores"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_noticia2"
+        />
+
+    <ImageView
+        android:id="@+id/icono_compartir2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_24"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia2"
+        app:layout_constraintBottom_toBottomOf="@id/noticia2"
+        app:layout_constraintRight_toRightOf="@id/noticia2"
+        android:elevation="5dp"
+        />
+    <ImageView
+        android:id="@+id/icono_marcar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_bookmark_border_24"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo_noticia2"
+        app:layout_constraintBottom_toBottomOf="@id/noticia2"
+        app:layout_constraintRight_toLeftOf="@id/icono_compartir"
+        android:elevation="5dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

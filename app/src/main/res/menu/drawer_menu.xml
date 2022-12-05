@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_outline"
+        android:title="Home" />
+    <item
+        android:id="@+id/editarPerfil"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/noticiasMarcadas"
+        android:icon="@drawable/ic_baseline_bookmark_border_24"
+        android:title="Noticias Marcadas" />
+
+    <item
+        android:id="@+id/siguiendo"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="Siguiendo" />
+
+    <item
+        android:id="@+id/inicio_de_sesion"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Cerrar sesion" />
+</menu>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="false">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Noticia4">
+
+
+    <ImageView
+        android:id="@+id/ImagenNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:src="@drawable/noticia4_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/titularNoticia"
+        />
+    <TextView
+        android:id="@+id/titularNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:text="N’GOLO KANTÉ A LAS PUERTAS DE PERDERSE EL MUNDIAL TRAS UNA NUEVA RECAÍDA CON EL CHELSEA"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/ImagenNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/FuenteNoticia"
+        />
+    <View
+        android:id="@+id/FuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/titularNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Noticia"
+        />
+    <ImageView
+        android:id="@+id/ImagenFuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_fuente_noticia3"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="@id/FuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintRight_toLeftOf="@id/NombreFuente"/>
+    <TextView
+        android:id="@+id/NombreFuente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="FUTBOLFRANCES.COM"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toTopOf="@id/FechaNoticia"
+        />
+    <TextView
+        android:id="@+id/FechaNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="11 de octubre de 2022"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/NombreFuente"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        />
+
+    <!--    \n\n    -->
+
+    <TextView
+        android:id="@+id/Noticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Un golpe para el Chelsea, pero también para la selección francesa… Ausente del campo desde el 14 de agosto por problemas musculares, y aunque esperaba hacer su gran regreso este martes con motivo del choque de la Ligue des Ligue Champions ante el AC Milan, el centrocampista N’Golo Kanté (31 años, 2 partidos de la Premier League esta temporada) finalmente debe abandonar después de experimentar una recaída.
+
+\n\n«N’Golo tuvo una reacción durante el entrenamiento, por lo que estamos esperando más información al respecto. Obviamente no es lo ideal. Es decepcionante para él y para nosotros. Tenemos que esperar para ver el grado de gravedad», dijo. El entrenador de blues Graham Potter el lunes durante una rueda de prensa.
+
+\n\nUna dinámica especialmente preocupante para Kanté ahora a un mes del Mundial de Qatar…"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Menciones"
+        />
+    <TextView
+        android:id="@+id/Menciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENCIONADOS EN ESTE ARTICULO"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Noticia"
+        android:textStyle="bold"
+        android:textColor="#9D142F"
+        />
+    <View
+        android:id="@+id/viewMencionSeleccion"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menciones"
+        app:layout_constraintBottom_toTopOf="@id/viewMencionjugador"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewSeleccion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/francia_image"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="FRANCIA"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintRight_toRightOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="@id/viewMencionSeleccion"
+        />
+    <View
+        android:id="@+id/viewMencionjugador"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_jugador_mencionado"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kante"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionjugador"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionjugador"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="KANTE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionjugador"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionjugador"
+        app:layout_constraintRight_toRightOf="@id/viewMencionjugador"
+        app:layout_constraintLeft_toLeftOf="@id/viewMencionjugador"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

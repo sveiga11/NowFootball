@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_degrade.xml" value="0.22" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_lista_afc.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_lista_caf.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_lista_concacaf.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_lista_conmebol.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/background_lista_uefa.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_partido.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_partido_finalizado.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_partido_juego.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_radius.xml" value="0.1775" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_radius_partido_por_jugar.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/border_radius_siguiendo.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/boton_anadir.xml" value="0.152" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/cercle_image.xml" value="0.1775" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/drawer_background_selector.xml" value="0.202" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/drawer_bakground_highlight.xml" value="0.202" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/drawer_selector.xml" value="0.202" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/edit_text_style.xml" value="0.176" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/flag_icon.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/grupos_boton.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_bookmark_border_24.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1615" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.1765" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_baseline_sports_soccer_24.xml" value="0.1615" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/noticia1_portada_background.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/rb_segmented_left.xml" value="0.2085" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/rb_segmented_right.xml" value="0.2085" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/rb_text.xml" value="0.2085" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/sombra_image.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_afc.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_caf.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_clasificaciones.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_concacaf.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_conmebol.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_selecciones.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_boton_uefa.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_clasificacion.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_clasificacion_grupo.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_clasificacion_titulo.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_clasificados.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_estadisticas.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_grafico_partidos.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_noticias.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_portada_noticias.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_posiciones_clasificacion.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_resumen_local.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/style_titulo_clasificacion.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/drawable/styles_grupos_partidos.xml" value="0.1935" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/activity_bottom.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/descubrir.xml" value="0.2751381215469613" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/drawer_header.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_all_partidos.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_bottom1.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_bottom2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_bottom3.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_clasificacion.xml" value="0.2" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_crear_cuenta.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_editar_perfil.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_jugador.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_jugador2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_jugador3.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_jugador4.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_seleccion1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_estadisticas_seleccion2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_informacion_jugador.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_informacion_jugador2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_informacion_jugador3.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_informacion_jugador4.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_inicio_de_sesion.xml" value="0.1" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_inicio_on_delay1.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_inicio_on_delay2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_jugador1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_jugador2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_jugador3.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_jugador4.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_a__z.xml" value="0.13941769316909294" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_afc.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_caf.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_concacaf.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_conmebol.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_jovenes_promesas.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_jugadores_top.xml" value="0.2" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_ranking_selecciones.xml" value="0.32936507936507936" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_lista_uefa.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_mis_noticias.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_mis_partidos.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticia1.xml" value="0.264" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticia2.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticia3.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticia4.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticia5.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_noticias_marcadas.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_opcion_de_inicio.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_partido1.xml" value="0.2903645833333333" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_partido2.xml" value="0.152" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_partido3.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_partido4.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_partido5.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_plantilla_seleccion1.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_plantilla_seleccion2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_recuperar_contrasena1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_recuperar_contrasena2.xml" value="0.2" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_recuperar_contrasena3.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_seleccion1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_seleccion2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_siguiendo.xml" value="0.2" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_temporada_seleccion1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_temporada_seleccion2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_todos_los_partidos_sel1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_todos_los_partidos_sel2.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_top_news.xml" value="0.1" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_verificar_cuenta.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/home.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/partidos.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/menu/bottom_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/menu/drawer_menu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

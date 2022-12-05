@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="false">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Noticia2">
+
+    <ImageView
+        android:id="@+id/ImagenNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:src="@drawable/noticia2_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/titularNoticia"
+        />
+    <TextView
+        android:id="@+id/titularNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:text="SEIS CIUDADES DEL MUNDO ALBERGARÁN EL FIFA FAN FESTIVAL DURANTE EL MUNDIAL DE QATAR 2022"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@id/ImagenNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/FuenteNoticia"
+        />
+    <View
+        android:id="@+id/FuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/titularNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Noticia"
+        />
+    <ImageView
+        android:id="@+id/ImagenFuenteNoticia"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_fuente_noticia2"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="@id/FuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintRight_toLeftOf="@id/NombreFuente"/>
+    <TextView
+        android:id="@+id/NombreFuente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="VERMOUTH DEPORTIVO"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toTopOf="@id/FechaNoticia"
+        />
+    <TextView
+        android:id="@+id/FechaNoticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="11 de octubre de 2022"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/NombreFuente"
+        app:layout_constraintLeft_toRightOf="@id/ImagenFuenteNoticia"
+        app:layout_constraintBottom_toBottomOf="@id/FuenteNoticia"
+        />
+
+<!--    \n\n    -->
+
+    <TextView
+        android:id="@+id/Noticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="La FIFA ha anunciado que el FIFA Fan Festival™ viajará a seis ciudades internacionales este año durante la Copa Mundial de la FIFA Catar 2022™, lo que permitirá traslada el espectacular ambiente festivo del Parque Al Bidda de Doha a seis eventos satélite.
+
+\n\nEsto convierte a Budweiser y sus marcas asociadas, Corona y Brahma, en el primer afiliado comercial de la historia de la Copa Mundial de la FIFA™ en celebrar actos del International FIFA Fan Festival™ en seis ciudades de varios rincones del planeta: Londres, Ciudad de México, Río de Janeiro, São Paulo y Seúl y Dubái. Budweiser, Corona y Brahma, además de otras bebidas sin alcohol, serán las marcas destacadas en estos festivales.
+
+\n\nLos eventos satélite complementarán al FIFA Fan Festival™ principal celebrado en el parque Al Bidda de Doha, una experiencia renovada para aquellos aficionados que acudan a Catar en la que podrán disfrutar de una apasionante selección de fútbol, música, gastronomía y cultura.
+
+\n\nEn todos los eventos del International FIFA Fan Festival™ habrá retransmisiones en directo de la Copa Mundial de la FIFA™ de Catar, además de otras actividades y espectáculos, incluidas actuaciones de reconocidos DJ internacionales, músicos y artistas del panorama nacional, y apariciones estelares de las FIFA Legends. Algunos de los eventos contarán además con una experiencia de sonido inmersiva en 4D que trasladará el ambiente de los partidos del Mundial a los festivales locales.
+
+\n\nLas sedes del International FIFA Fan Festival™ estarán vinculadas al acto principal de Catar a través del uso de la imagen de marca de la Copa Mundial de la FIFA™, de contenido exclusivo de cada país organizador y del storytelling compartido en los canales digitales de la FIFA, particularmente FIFA +, que servirá de punto de encuentro digital en el que hinchas de todo el mundo podrán seguir el Mundial y compartir su afición.
+
+\n\nLos eventos del International FIFA Fan Festival™ se celebrarán en fechas y horas concretas a lo largo del torneo, que comienza el 20 de noviembre. Habrá celebraciones de todos los tamaños, desde pequeñas activaciones de marca de tipo pop-up hasta celebraciones por todo lo alto en recintos con capacidad para más de 10 000 espectadores. Solo los aficionados que tengan la edad mínima establecida por ley para beber podrán acceder a los eventos del International FIFA Fan Festival™ organizados por Budweiser y Brahma. En los seis eventos, la entrada general será gratuita o económica y, además, se ofrecerá un acceso VIP por un precio mayor.
+
+\n\n«El FIFA Fan Festival™ fue concebido para reunir a la afición más allá de los estadios en torno a una experiencia que aunara lo mejor del fútbol, la música, la gastronomía y las últimas tendencias—explica Romy Gai, director de la División Comercial de la FIFA—. Es para nosotros un honor colaborar con Budweiser, Corona y Brahma para trasladar la esencia del FIFA Fan Festival™ que se vivirá en Doha a espectaculares eventos satélite a nivel global, pues con ello acercamos el ambiente de la propia Copa Mundial de la FIFA™ a aficionados de todo el mundo».
+
+\n\n«Sabemos que miles de millones de aficionados al fútbol seguirán el Mundial, y estamos emocionados de poder colaborar con la FIFA para crear el primer International FIFA Fan Festival™ de la historia, un evento único que permitirá a los hinchas disfrutar de experiencias inmersivas de última generación mientras celebran la música y cultura locales, todo ello junto a Budweiser, Corona y Brahma», declaró Todd Allen, vicepresidente global de Marketing de Budweiser en AB InBev."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/FuenteNoticia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Menciones"
+        />
+    <TextView
+        android:id="@+id/Menciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENCIONADOS EN ESTE ARTICULO"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Noticia"
+        android:textStyle="bold"
+        android:textColor="#9D142F"
+        />
+    <View
+        android:id="@+id/viewMencionSeleccion"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewSeleccion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/catar_image"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="CATAR"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
+        app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
+        app:layout_constraintRight_toRightOf="@id/viewMencionSeleccion"
+        app:layout_constraintLeft_toLeftOf="@id/viewMencionSeleccion"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Opcion_de_inicio">
+
+
+    <ImageView
+        android:id="@+id/imagelaeeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/laeeb_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/boton_inicio_sesion"
+        />
+
+    <Button
+        android:id="@+id/boton_inicio_sesion"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="Iniciar sesion"
+        android:textSize="20sp"
+        app:cornerRadius="25dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagelaeeb" />
+
+    <Button
+        android:id="@+id/boton_crear_cuenta"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:text="Crear cuenta"
+        android:textColor="#9D142F"
+        android:textSize="20sp"
+        app:cornerRadius="25dip"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_inicio_sesion"
+        app:strokeColor="#9D142F"
+        app:strokeWidth="2dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
