@@ -16,19 +16,19 @@ import com.example.nowfootball.databinding.FragmentTemporadaSeleccion1Binding;
 
 
 public class TemporadaSeleccion1 extends Fragment {
-    View primerClasificadoE;
-    View segundoClasificadoE;
-    View tercerClasificadoE;
-    View cuartoClasificadoE;
-
-    View viewTodasLasClasificaciones;
-    View viewTodosLosPartidos;
-
-    View partido1;
-    View partido2;
-    View partido3;
-
-    NavController navController;
+//    View primerClasificadoE;
+//    View segundoClasificadoE;
+//    View tercerClasificadoE;
+//    View cuartoClasificadoE;
+//
+//    View viewTodasLasClasificaciones;
+//    View viewTodosLosPartidos;
+//
+//    View partido1;
+//    View partido2;
+//    View partido3;
+//
+//    NavController navController;
 
     private FragmentTemporadaSeleccion1Binding binding;
 
@@ -40,7 +40,7 @@ public class TemporadaSeleccion1 extends Fragment {
     }
 
 
-    @Override
+   /* @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -116,5 +116,5 @@ public class TemporadaSeleccion1 extends Fragment {
                 navController.navigate(R.id.partido2Button);
             }
         });
-    }
+    }*/
 }

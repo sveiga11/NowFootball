@@ -45,7 +45,7 @@ public class VerificarCuenta extends Fragment {
         botonAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.crearCuenta);
+                navController.navigate(R.id.action_verificarCuenta_to_crearCuenta);
             }
         });
 

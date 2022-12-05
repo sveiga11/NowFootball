@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_inicio_app"
-    app:startDestination="@id/seleccion1">
+    app:startDestination="@id/opcion_de_inicio">
 
     <fragment
         android:id="@+id/inicio_on_delay2"
@@ -22,10 +22,20 @@
         tools:layout="@layout/fragment_opcion_de_inicio" >
         <action
             android:id="@+id/action_opcion_de_inicio_to_inicio_de_sesion"
-            app:destination="@id/inicio_de_sesion" />
+            app:destination="@id/inicio_de_sesion"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_opcion_de_inicio_to_crearCuenta"
-            app:destination="@id/crearCuenta" />
+            app:destination="@id/crearCuenta"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
 
     </fragment>
     <fragment
@@ -253,10 +263,6 @@
         <action
             android:id="@+id/action_verificarCuenta_to_home"
             app:destination="@id/home"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
             />
         <action
             android:id="@+id/action_verificarCuenta_to_crearCuenta"

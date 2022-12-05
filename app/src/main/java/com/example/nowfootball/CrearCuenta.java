@@ -51,14 +51,14 @@ public class CrearCuenta extends Fragment {
         botonAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.opcion_de_inicio);
+                navController.navigate(R.id.action_crearCuenta_to_opcion_de_inicio);
             }
         });
 
         botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.verificarCuenta);
+                navController.navigate(R.id.action_crearCuenta_to_verificarCuenta);
             }
         });
     }

@@ -42,14 +42,14 @@ public class Opcion_de_inicio extends Fragment {
         botonInicioSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.inicio_de_sesion);
+                navController.navigate(R.id.action_opcion_de_inicio_to_inicio_de_sesion);
             }
         });
 
         botonCrearCuenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.crearCuenta);
+                navController.navigate(R.id.action_opcion_de_inicio_to_crearCuenta);
             }
         });
     }

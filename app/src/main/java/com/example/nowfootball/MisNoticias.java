@@ -21,13 +21,13 @@ import com.google.android.material.imageview.ShapeableImageView;
 
 public class MisNoticias extends Fragment {
 
-    /*ShapeableImageView portadaNoticia1;
-    ShapeableImageView portadaNoticia2;
-
-    TextView tituloNoticia1;
-    TextView tituloNoticia2;
-
-    NavController navController;
+//    ShapeableImageView portadaNoticia1;
+//    ShapeableImageView portadaNoticia2;
+//
+//    TextView tituloNoticia1;
+//    TextView tituloNoticia2;
+//
+//    NavController navController;
 
     private FragmentMisNoticiasBinding binding;
 
@@ -38,7 +38,7 @@ public class MisNoticias extends Fragment {
         return (binding = FragmentMisNoticiasBinding.inflate(inflater, container, false)).getRoot();
     }
 
-    @Override
+    /*@Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 

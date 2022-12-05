@@ -41,14 +41,14 @@ public class Inicio_de_sesion extends Fragment {
         botonInicioSesion2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.home);
+                navController.navigate(R.id.action_inicio_de_sesion_to_home);
             }
         });
 
         botonRecuperarContraseña.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.recuperarContrasena1);
+                navController.navigate(R.id.action_inicio_de_sesion_to_recuperarContrasena1);
             }
         });
     }

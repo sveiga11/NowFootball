@@ -43,14 +43,14 @@ public class recuperarContrasena2 extends Fragment {
         botonAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.recuperarContrasena1);
+                navController.navigate(R.id.action_recuperarContrasena2_to_recuperarContrasena1);
             }
         });
 
         botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.recuperarContrasena3);
+                navController.navigate(R.id.action_recuperarContrasena2_to_recuperarContrasena3);
             }
         });
     }

@@ -116,7 +116,7 @@
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_seleccion1.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_seleccion2.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_siguiendo.xml" value="0.2" />
-        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_temporada_seleccion1.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_temporada_seleccion1.xml" value="0.1" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_temporada_seleccion2.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_todos_los_partidos_sel1.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/fragment_todos_los_partidos_sel2.xml" value="0.259375" />
@@ -126,6 +126,9 @@
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/layout/partidos.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/menu/bottom_menu.xml" value="0.259375" />
         <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/menu/drawer_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/mipmap-anydpi-v26/ImageApp.xml" value="0.1" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/mipmap-anydpi-v26/app_Image.xml" value="0.1" />
+        <entry key="..\:/Users/Samuel Veiga/Documents/MP07 Desenvolupament d_interficies/NOWFOOTBALL/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
