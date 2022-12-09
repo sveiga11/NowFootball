@@ -691,7 +691,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Partidos | Grupo E"
+        android:text="Partidos | Grupo C"
         android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="@id/viewTituloPartidos"
         app:layout_constraintLeft_toLeftOf="@id/viewTituloPartidos"

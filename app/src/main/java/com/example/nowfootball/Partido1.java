@@ -25,6 +25,12 @@ public class Partido1 extends Fragment {
     View mco;
     View por;
 
+    View partido1Button;
+    View partido2Button;
+    View partido3Button;
+
+    View viewTodosLosPartidos;
+
 
     NavController navController;
 
@@ -45,9 +51,16 @@ public class Partido1 extends Fragment {
 
         ImagenEquipoLocalC1 = view.findViewById(R.id.ImagenEquipoLocalC1);
         ImagenEquipoVisitanteC1 = view.findViewById(R.id.ImagenEquipoVisitanteC1);
+
         dc = view.findViewById(R.id.dc);
         mco = view.findViewById(R.id.mco);
         por = view.findViewById(R.id.por);
+
+        partido1Button = view.findViewById(R.id.partido1Button);
+        partido2Button = view.findViewById(R.id.partido2Button);
+        partido3Button = view.findViewById(R.id.partido3Button);
+
+        viewTodosLosPartidos = view.findViewById(R.id.viewTodosLosPartidos);
 
 
         ImagenEquipoLocalC1.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +92,32 @@ public class Partido1 extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.jugador4);
+            }
+        });
+
+        partido1Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.seleccion1);
+            }
+        });
+        partido2Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.seleccion2);
+            }
+        });
+        partido3Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.seleccion2);
+            }
+        });
+
+        viewTodosLosPartidos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.todosLosPartidosSel2);
             }
         });
     }

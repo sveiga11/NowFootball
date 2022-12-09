@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_inicio_app"
-    app:startDestination="@id/opcion_de_inicio">
+    app:startDestination="@id/inicio_de_sesion">
 
     <fragment
         android:id="@+id/inicio_on_delay2"
@@ -117,22 +117,52 @@
         tools:layout="@layout/partidos" >
         <action
             android:id="@+id/action_partidos_to_partido1"
-            app:destination="@id/partido1Button" />
+            app:destination="@id/partido1Button"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_partidos_to_partido22"
-            app:destination="@id/partido2Button" />
+            app:destination="@id/partido2Button"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_partidos_to_partido5"
-            app:destination="@id/partido5" />
+            app:destination="@id/partido5"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_partidos_to_partido4"
-            app:destination="@id/partido4" />
+            app:destination="@id/partido4"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_partidos_to_partido52"
-            app:destination="@id/partido5" />
+            app:destination="@id/partido5"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_partidos_to_partido3"
-            app:destination="@id/partido3Button" />
+            app:destination="@id/partido3Button"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
     </fragment>
     <fragment
         android:id="@+id/noticiasMarcadas"

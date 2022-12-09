@@ -24,7 +24,10 @@ public class Siguiendo extends Fragment {
 
     CircleImageView botonSeleccion;
     CircleImageView botonJugador;
+
+    ImageButton botonGrupo;
     ImageButton botonAñadirSelecciones;
+    ImageButton botonAñadirJugador;
 
     NavController navController;
 
@@ -45,7 +48,10 @@ public class Siguiendo extends Fragment {
 
         botonSeleccion = view.findViewById(R.id.botonSeleccion);
         botonJugador = view.findViewById(R.id.botonJugador);
+        botonGrupo = view.findViewById(R.id.botonGrupo);
+
         botonAñadirSelecciones = view.findViewById(R.id.botonAñadirSelecciones);
+        botonAñadirJugador = view.findViewById(R.id.botonAñadirJugadores);
 
         botonSeleccion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,10 +66,23 @@ public class Siguiendo extends Fragment {
                 navController.navigate(R.id.jugador1);
             }
         });
+        botonGrupo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.clasificacion);
+            }
+        });
+
         botonAñadirSelecciones.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.listaA_Z);
+            }
+        });
+        botonAñadirJugador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.lista_jugadores_top);
             }
         });
     }

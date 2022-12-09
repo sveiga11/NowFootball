@@ -1,21 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".EditarPerfil">
 
-    <ImageView
-        android:id="@+id/imagenVerificado"
-        android:layout_margin="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/add_profile_image"
-        app:layout_constraintBottom_toTopOf="@id/viewContraseñaActual"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="#9D142F"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="6">
+
+        <ImageView
+            android:id="@+id/imagenVerificado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/add_profile_image"
+            app:layout_constraintBottom_toBottomOf="@id/content"
+            app:layout_constraintLeft_toLeftOf="@id/content"
+            app:layout_constraintRight_toRightOf="@id/content"
+            app:layout_constraintTop_toTopOf="@id/content" />
+    </com.skyfishjy.library.RippleBackground>
+
+
 
     <View
         android:id="@+id/viewContraseñaActual"
@@ -26,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagenVerificado"
+        app:layout_constraintTop_toBottomOf="@+id/content"
         app:layout_constraintBottom_toTopOf="@id/view_apellidos"/>
 
     <TextView
@@ -56,6 +77,7 @@
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:textColor="#9D142F"
+        android:text="Samuel"
         />
 
     <View
@@ -98,6 +120,7 @@
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:textColor="#9D142F"
+        android:text="Veiga Fernandez"
         />
     <View
         android:id="@+id/view_nombre_usuario"
@@ -139,6 +162,7 @@
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:textColor="#9D142F"
+        android:text="sveiga21"
         />
     <View
         android:id="@+id/view_mail"
@@ -180,6 +204,7 @@
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:textColor="#9D142F"
+        android:text="sveiga@elpuig.xeill.net"
         />
     <View
         android:id="@+id/view_telefono"
@@ -221,6 +246,7 @@
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:textColor="#9D142F"
+        android:text="638 12 41 50"
         />
     <View
         android:id="@+id/view_contraseña1"
@@ -263,6 +289,7 @@
         android:textSize="15dp"
         android:textColor="#9D142F"
         android:drawableRight="@drawable/ic_baseline_remove_red_eye_25"
+        android:text="NowFootball#2129"
         />
     <Button
         android:id="@+id/botonActualizarPerfil"
@@ -278,3 +305,4 @@
         app:layout_constraintTop_toBottomOf="@id/view_contraseña1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
