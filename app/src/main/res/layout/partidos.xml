@@ -13,7 +13,6 @@
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-
           <View
             android:id="@+id/viewGrupoC"
             android:layout_width="match_parent"
@@ -55,7 +54,7 @@
             />
         <View
             android:id="@+id/viewPartidoC1"
-            android:layout_width="300dp"
+            android:layout_width="280dp"
             android:layout_height="90dp"
             android:background="@drawable/border_partido"
             android:layout_marginTop="10dp"
@@ -67,7 +66,7 @@
             />
         <View
             android:id="@+id/viewEstadoPartidoC1"
-            android:layout_width="300dp"
+            android:layout_width="280dp"
             android:layout_height="92dp"
             android:background="@drawable/border_partido_finalizado"
             android:layout_marginTop="10dp"
@@ -131,10 +130,11 @@
         <!--    Partido 2 grupo C-->
         <View
             android:id="@+id/viewPartidoC2"
-            android:layout_width="300dp"
+            android:layout_width="280dp"
             android:layout_height="90dp"
             android:background="@drawable/border_partido"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             app:layout_constraintTop_toBottomOf="@id/viewPartidoC1"
             app:layout_constraintLeft_toLeftOf="@id/viewGrupoC"
             app:layout_constraintRight_toRightOf="@id/viewGrupoC"
@@ -143,7 +143,7 @@
             />
         <View
             android:id="@+id/viewEstadoPartidoC2"
-            android:layout_width="300dp"
+            android:layout_width="280dp"
             android:layout_height="92dp"
             android:background="@drawable/border_partido_juego"
             android:layout_marginTop="10dp"
@@ -249,7 +249,7 @@
         />
     <View
         android:id="@+id/viewPartidoD1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
         android:layout_marginTop="10dp"
@@ -261,7 +261,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartidoD1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"
@@ -325,10 +325,11 @@
     <!--    Partido 2 grupo D-->
     <View
         android:id="@+id/viewPartidoD2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintTop_toBottomOf="@id/viewPartidoD1"
         app:layout_constraintLeft_toLeftOf="@id/viewGrupoD"
         app:layout_constraintRight_toRightOf="@id/viewGrupoD"
@@ -337,7 +338,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartidoD2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"
@@ -440,7 +441,7 @@
         />
     <View
         android:id="@+id/viewPartidoE1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
         android:layout_marginTop="10dp"
@@ -452,7 +453,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartidoE1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"
@@ -516,10 +517,11 @@
     <!--    Partido 2 grupo D-->
     <View
         android:id="@+id/viewPartidoE2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintTop_toBottomOf="@id/viewPartidoE1"
         app:layout_constraintLeft_toLeftOf="@id/viewGrupoE"
         app:layout_constraintRight_toRightOf="@id/viewGrupoE"
@@ -528,7 +530,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartidoE2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"

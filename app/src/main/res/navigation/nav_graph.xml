@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_inicio_app"
-    app:startDestination="@id/inicio_de_sesion">
+    app:startDestination="@id/opcion_de_inicio">
 
     <fragment
         android:id="@+id/inicio_on_delay2"

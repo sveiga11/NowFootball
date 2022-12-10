@@ -55,7 +55,9 @@
 
     <View
         android:id="@+id/viewClub"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -69,12 +71,11 @@
         android:id="@+id/imageViewClub"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/psg"
         app:layout_constraintBottom_toBottomOf="@+id/viewClub"
         app:layout_constraintTop_toTopOf="@+id/viewClub"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/viewClub"
         />
 
     <TextView
@@ -94,7 +95,9 @@
 
     <View
         android:id="@+id/viewSeleccion"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -107,11 +110,10 @@
         android:id="@+id/imageViewSeleccion"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/argentina_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccion"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccion"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccion"
         />
 
@@ -130,8 +132,8 @@
         />
     <View
         android:id="@+id/viewCuadroEstadisticas"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintTop_toBottomOf="@id/viewSeleccion"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -143,8 +145,8 @@
 
     <View
         android:id="@+id/viewGoles"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toTopOf="@id/viewTiro"
         app:layout_constraintLeft_toLeftOf="@id/viewCuadroEstadisticas"
@@ -152,8 +154,8 @@
         app:layout_constraintTop_toTopOf="@id/viewCuadroEstadisticas" />
     <View
         android:id="@+id/viewTiro"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toBottomOf="@id/viewCuadroEstadisticas"
         app:layout_constraintLeft_toLeftOf="@id/viewCuadroEstadisticas"
@@ -161,8 +163,8 @@
         app:layout_constraintTop_toBottomOf="@id/viewGoles" />
     <View
         android:id="@+id/viewAsistencias"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toTopOf="@id/viewPase"
         app:layout_constraintLeft_toRightOf="@id/viewGoles"
@@ -170,8 +172,8 @@
         app:layout_constraintTop_toTopOf="@id/viewCuadroEstadisticas" />
     <View
         android:id="@+id/viewPase"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toBottomOf="@id/viewCuadroEstadisticas"
         app:layout_constraintLeft_toRightOf="@id/viewTiro"
@@ -179,8 +181,8 @@
         app:layout_constraintTop_toBottomOf="@id/viewAsistencias" />
     <View
         android:id="@+id/viewPartidosJugados"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/style_estadisticas_central"
         app:layout_constraintBottom_toBottomOf="@id/viewCuadroEstadisticas"
         app:layout_constraintLeft_toLeftOf="@id/viewCuadroEstadisticas"
@@ -191,7 +193,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Edad"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewGoles"
@@ -204,7 +206,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="35"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/textoGoles"
         app:layout_constraintLeft_toLeftOf="@id/viewGoles"
@@ -216,7 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pais"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewAsistencias"
@@ -229,7 +231,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Argentina"
-        android:textSize="20dp"
+        android:textSize="17dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/textoAsistencias"
         app:layout_constraintLeft_toLeftOf="@id/viewAsistencias"
@@ -241,7 +243,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Estatura"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/tiroJugador"
@@ -254,7 +256,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="170 cm"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewTiro"
         app:layout_constraintLeft_toLeftOf="@id/viewTiro"
@@ -266,7 +268,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Peso"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/paseJugador"
@@ -279,7 +281,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="72 kg"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewPase"
         app:layout_constraintLeft_toLeftOf="@id/viewPase"
@@ -291,7 +293,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewPartidosJugados"
@@ -305,7 +307,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delantero"
-        android:textSize="20dp"
+        android:textSize="17dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/partidosJugadorNum"
         app:layout_constraintLeft_toLeftOf="@id/viewPartidosJugados"

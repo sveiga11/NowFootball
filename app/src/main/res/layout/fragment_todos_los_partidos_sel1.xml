@@ -55,7 +55,7 @@
         />
     <View
         android:id="@+id/viewPartido1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
         android:layout_marginTop="10dp"
@@ -67,7 +67,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartido1"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"
@@ -168,7 +168,7 @@
         />
     <View
         android:id="@+id/viewPartido2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
         android:layout_marginTop="10dp"
@@ -180,7 +180,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartido2"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"
@@ -282,7 +282,7 @@
         />
     <View
         android:id="@+id/viewPartido3"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="90dp"
         android:background="@drawable/border_partido"
         android:layout_marginTop="10dp"
@@ -294,7 +294,7 @@
         />
     <View
         android:id="@+id/viewEstadoPartido3"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="92dp"
         android:background="@drawable/border_radius_partido_por_jugar"
         android:layout_marginTop="10dp"

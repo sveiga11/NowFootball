@@ -293,10 +293,12 @@
         />
     <Button
         android:id="@+id/botonActualizarPerfil"
-        android:layout_width="300dp"
-        android:layout_height="65dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="55dp"
         android:text="Actualizar perfil"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:cornerRadius="25dip"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

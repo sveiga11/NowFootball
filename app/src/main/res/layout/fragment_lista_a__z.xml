@@ -45,7 +45,9 @@
 
     <View
         android:id="@+id/viewClub"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -59,12 +61,11 @@
         android:id="@+id/imageViewClub"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/alemania_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewClub"
         app:layout_constraintTop_toTopOf="@+id/viewClub"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewClub"
         />
 
     <TextView
@@ -84,7 +85,9 @@
 
     <View
         android:id="@+id/viewSeleccion"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -97,11 +100,10 @@
         android:id="@+id/imageViewSeleccion"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/arabia_saudita_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccion"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccion"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccion"
         />
 
@@ -121,7 +123,9 @@
 
     <View
         android:id="@+id/viewArgentina"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -134,11 +138,10 @@
         android:id="@+id/imageArgentina"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/argentina_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewArgentina"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewArgentina"
         app:layout_constraintTop_toTopOf="@+id/viewArgentina"
         />
 
@@ -158,7 +161,9 @@
 
     <View
         android:id="@+id/viewAustralia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -171,11 +176,10 @@
         android:id="@+id/imageAustralia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/australia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewAustralia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAustralia"
         app:layout_constraintTop_toTopOf="@+id/viewAustralia"
         />
 
@@ -208,7 +212,9 @@
         />
     <View
         android:id="@+id/viewBelgica"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         app:layout_constraintEnd_toEndOf="parent"
@@ -221,11 +227,10 @@
         android:id="@+id/imageBelgica"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/belgica_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewBelgica"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBelgica"
         app:layout_constraintTop_toTopOf="@+id/viewBelgica"
         />
 
@@ -245,7 +250,9 @@
 
     <View
         android:id="@+id/viewSeleccionador"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -258,11 +265,10 @@
         android:id="@+id/imageSeleccionador"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/brasil_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccionador"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccionador"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccionador"
         />
 
@@ -296,7 +302,9 @@
 
     <View
         android:id="@+id/viewCamerun"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         app:layout_constraintEnd_toEndOf="parent"
@@ -310,11 +318,10 @@
         android:id="@+id/imageCamerun"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/camerun_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCamerun"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCamerun"
         app:layout_constraintTop_toTopOf="@+id/viewCamerun"
         />
 
@@ -333,7 +340,9 @@
         />
     <View
         android:id="@+id/viewCanada"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -346,11 +355,10 @@
         android:id="@+id/imageCanada"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/canada_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCanada"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCanada"
         app:layout_constraintTop_toTopOf="@+id/viewCanada"
         />
 
@@ -369,7 +377,9 @@
         />
     <View
         android:id="@+id/viewCatar"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -382,11 +392,10 @@
         android:id="@+id/imageCatar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/catar_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCatar"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCatar"
         app:layout_constraintTop_toTopOf="@+id/viewCatar"
         />
 
@@ -405,7 +414,9 @@
         />
     <View
         android:id="@+id/viewCorea"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -418,11 +429,10 @@
         android:id="@+id/imageCorea"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/corea_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCorea"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCorea"
         app:layout_constraintTop_toTopOf="@+id/viewCorea"
         />
 
@@ -442,7 +452,9 @@
 
     <View
         android:id="@+id/ViewCostaRica"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -455,11 +467,10 @@
         android:id="@+id/imageCostaRica"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/costa_rica_image"
         app:layout_constraintBottom_toBottomOf="@+id/ViewCostaRica"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ViewCostaRica"
         app:layout_constraintTop_toTopOf="@+id/ViewCostaRica"
         />
 
@@ -478,7 +489,9 @@
         />
     <View
         android:id="@+id/viewCroacia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -491,11 +504,10 @@
         android:id="@+id/imageCroacia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/croacia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCroacia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCroacia"
         app:layout_constraintTop_toTopOf="@+id/viewCroacia"
         />
 
@@ -528,7 +540,9 @@
         />
     <View
         android:id="@+id/viewDinamarca"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -541,11 +555,10 @@
         android:id="@+id/imageDinamarca"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/dinamarca_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewDinamarca"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewDinamarca"
         app:layout_constraintTop_toTopOf="@+id/viewDinamarca"
         />
 
@@ -578,7 +591,9 @@
         />
     <View
         android:id="@+id/viewEcuador"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -591,11 +606,10 @@
         android:id="@+id/imageEcuador"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ecuador_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewEcuador"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEcuador"
         app:layout_constraintTop_toTopOf="@+id/viewEcuador"
         />
 
@@ -614,7 +628,9 @@
         />
     <View
         android:id="@+id/viewEspaña"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -627,11 +643,10 @@
         android:id="@+id/imageEspaña"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/espana_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewEspaña"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEspaña"
         app:layout_constraintTop_toTopOf="@+id/viewEspaña"
         />
 
@@ -650,7 +665,9 @@
         />
     <View
         android:id="@+id/viewEEUU"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -663,11 +680,10 @@
         android:id="@+id/imageEEUU"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/eeuu_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewEEUU"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEEUU"
         app:layout_constraintTop_toTopOf="@+id/viewEEUU"
         />
 
@@ -700,7 +716,9 @@
         />
     <View
         android:id="@+id/viewFrancia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -713,11 +731,10 @@
         android:id="@+id/imageFrancia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/francia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewFrancia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewFrancia"
         app:layout_constraintTop_toTopOf="@+id/viewFrancia"
         />
 
@@ -750,7 +767,9 @@
         />
     <View
         android:id="@+id/viewGales"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -763,11 +782,10 @@
         android:id="@+id/imageGales"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/gales_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewGales"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewGales"
         app:layout_constraintTop_toTopOf="@+id/viewGales"
         />
 
@@ -786,7 +804,9 @@
         />
     <View
         android:id="@+id/viewGhana"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -799,11 +819,10 @@
         android:id="@+id/imageGhana"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ghana_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewGhana"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewGhana"
         app:layout_constraintTop_toTopOf="@+id/viewGhana"
         />
 
@@ -836,7 +855,9 @@
         />
     <View
         android:id="@+id/viewInglaterra"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -849,11 +870,10 @@
         android:id="@+id/imageInglaterra"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/inglaterra_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewInglaterra"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewInglaterra"
         app:layout_constraintTop_toTopOf="@+id/viewInglaterra"
         />
 
@@ -885,11 +905,10 @@
         android:id="@+id/imageIran"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/iran_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewIran"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewIran"
         app:layout_constraintTop_toTopOf="@+id/viewIran"
         />
 
@@ -922,7 +941,9 @@
         />
     <View
         android:id="@+id/viewJapon"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -935,11 +956,10 @@
         android:id="@+id/imageJapon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/japan_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewJapon"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewJapon"
         app:layout_constraintTop_toTopOf="@+id/viewJapon"
         />
 
@@ -972,7 +992,9 @@
         />
     <View
         android:id="@+id/viewMarruecos"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -985,11 +1007,10 @@
         android:id="@+id/imageMarruecos"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/marruecos_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewMarruecos"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMarruecos"
         app:layout_constraintTop_toTopOf="@+id/viewMarruecos"
         />
 
@@ -1021,11 +1042,10 @@
         android:id="@+id/imageMexico"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/mexico_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewMexico"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMexico"
         app:layout_constraintTop_toTopOf="@+id/viewMexico"
         />
 
@@ -1058,7 +1078,9 @@
         />
     <View
         android:id="@+id/viewPaisesBajos"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1071,11 +1093,10 @@
         android:id="@+id/imagePaisesBajos"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/paises_bajos_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewPaisesBajos"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPaisesBajos"
         app:layout_constraintTop_toTopOf="@+id/viewPaisesBajos"
         />
 
@@ -1094,7 +1115,9 @@
         />
     <View
         android:id="@+id/viewPolonia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1107,11 +1130,10 @@
         android:id="@+id/imagePolonia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/polonia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewPolonia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPolonia"
         app:layout_constraintTop_toTopOf="@+id/viewPolonia"
         />
 
@@ -1130,7 +1152,9 @@
         />
     <View
         android:id="@+id/viewPortugal"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1143,11 +1167,10 @@
         android:id="@+id/imagePortugal"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/portugal_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewPortugal"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPortugal"
         app:layout_constraintTop_toTopOf="@+id/viewPortugal"
         />
 
@@ -1180,7 +1203,9 @@
         />
     <View
         android:id="@+id/viewSenegal"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1193,11 +1218,10 @@
         android:id="@+id/imageSenegal"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/arabia_saudita_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSenegal"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSenegal"
         app:layout_constraintTop_toTopOf="@+id/viewSenegal"
         />
 
@@ -1216,7 +1240,9 @@
         />
     <View
         android:id="@+id/viewSerbia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1229,11 +1255,10 @@
         android:id="@+id/imageSerbia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/serbia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSerbia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSerbia"
         app:layout_constraintTop_toTopOf="@+id/viewSerbia"
         />
 
@@ -1252,7 +1277,9 @@
         />
     <View
         android:id="@+id/viewSuiza"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1265,11 +1292,10 @@
         android:id="@+id/imageSuiza"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/suiza_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSuiza"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSuiza"
         app:layout_constraintTop_toTopOf="@+id/viewSuiza"
         />
 
@@ -1302,7 +1328,9 @@
         />
     <View
         android:id="@+id/viewTunez"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/border_radius"
@@ -1315,11 +1343,10 @@
         android:id="@+id/imageTunez"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/tunez_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewTunez"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewTunez"
         app:layout_constraintTop_toTopOf="@+id/viewTunez"
         />
 
@@ -1353,7 +1380,9 @@
 
     <View
         android:id="@+id/viewUruguay"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
@@ -1367,11 +1396,10 @@
         android:id="@+id/imageUruguay"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/uruguay_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewUruguay"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewUruguay"
         app:layout_constraintTop_toTopOf="@+id/viewUruguay"
         />
 

@@ -31,7 +31,9 @@
         />
     <View
         android:id="@+id/viewMessi"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -45,12 +47,11 @@
         android:id="@+id/imageMessi"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/messi"
         app:layout_constraintBottom_toBottomOf="@+id/viewMessi"
         app:layout_constraintTop_toTopOf="@+id/viewMessi"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMessi"
         />
 
     <TextView
@@ -68,7 +69,9 @@
         />
     <View
         android:id="@+id/viewCR7"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -82,12 +85,11 @@
         android:id="@+id/imageCR7"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/cr7"
         app:layout_constraintBottom_toBottomOf="@+id/viewCR7"
         app:layout_constraintTop_toTopOf="@+id/viewCR7"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCR7"
         />
 
     <TextView
@@ -105,7 +107,9 @@
         />
     <View
         android:id="@+id/viewBenzema"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -119,12 +123,11 @@
         android:id="@+id/imageBenzema"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/benzema"
         app:layout_constraintBottom_toBottomOf="@+id/viewBenzema"
         app:layout_constraintTop_toTopOf="@+id/viewBenzema"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBenzema"
         />
 
     <TextView
@@ -142,7 +145,9 @@
         />
     <View
         android:id="@+id/viewModric"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -156,12 +161,11 @@
         android:id="@+id/imageModric"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/modric"
         app:layout_constraintBottom_toBottomOf="@+id/viewModric"
         app:layout_constraintTop_toTopOf="@+id/viewModric"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewModric"
         />
 
     <TextView
@@ -179,7 +183,9 @@
         />
     <View
         android:id="@+id/viewNeymar"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -193,12 +199,11 @@
         android:id="@+id/imageNeymar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/neymar"
         app:layout_constraintBottom_toBottomOf="@+id/viewNeymar"
         app:layout_constraintTop_toTopOf="@+id/viewNeymar"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewNeymar"
         />
 
     <TextView
@@ -216,7 +221,9 @@
         />
     <View
         android:id="@+id/viewLewandoski"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -230,12 +237,11 @@
         android:id="@+id/imageLewandoski"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/lewandoski"
         app:layout_constraintBottom_toBottomOf="@+id/viewLewandoski"
         app:layout_constraintTop_toTopOf="@+id/viewLewandoski"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewLewandoski"
         />
 
     <TextView
@@ -253,7 +259,9 @@
         />
     <View
         android:id="@+id/viewMbappe"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -267,12 +275,11 @@
         android:id="@+id/imageMbappe"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/mbappe"
         app:layout_constraintBottom_toBottomOf="@+id/viewMbappe"
         app:layout_constraintTop_toTopOf="@+id/viewMbappe"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMbappe"
         />
 
     <TextView
@@ -290,7 +297,9 @@
         />
     <View
         android:id="@+id/viewDeBruyne"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -304,12 +313,11 @@
         android:id="@+id/imageDeBruyne"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/de_bruyne"
         app:layout_constraintBottom_toBottomOf="@+id/viewDeBruyne"
         app:layout_constraintTop_toTopOf="@+id/viewDeBruyne"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewDeBruyne"
         />
 
     <TextView
@@ -327,7 +335,9 @@
         />
     <View
         android:id="@+id/viewMane"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -341,12 +351,11 @@
         android:id="@+id/imageMane"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/mane"
         app:layout_constraintBottom_toBottomOf="@+id/viewMane"
         app:layout_constraintTop_toTopOf="@+id/viewMane"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMane"
         />
 
     <TextView
@@ -364,10 +373,13 @@
         />
     <View
         android:id="@+id/viewKane"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewMane"
@@ -378,12 +390,11 @@
         android:id="@+id/imageKane"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/kane"
         app:layout_constraintBottom_toBottomOf="@+id/viewKane"
         app:layout_constraintTop_toTopOf="@+id/viewKane"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewKane"
         />
 
     <TextView

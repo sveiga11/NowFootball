@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="false"
+    android:background="@drawable/background_lista_concacaf"
+    >
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ListaConcacaf"
-    android:background="@drawable/background_lista_concacaf">
+    >
 
     <ImageView
         android:id="@+id/concacaf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/concacaf"
-        android:layout_marginTop="40dp"
+        android:layout_margin="40dp"
         app:layout_constraintBottom_toTopOf="@id/viewCanada"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,11 +29,11 @@
 
     <View
         android:id="@+id/viewCanada"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/concacaf"
@@ -35,12 +44,11 @@
         android:id="@+id/imageCanada"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/canada_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCanada"
         app:layout_constraintTop_toTopOf="@+id/viewCanada"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCanada"
         />
 
     <TextView
@@ -58,11 +66,11 @@
         />
     <View
         android:id="@+id/viewCostaRica"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewCanada"
@@ -73,12 +81,11 @@
         android:id="@+id/imageCostaRica"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/costa_rica_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCostaRica"
         app:layout_constraintTop_toTopOf="@+id/viewCostaRica"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCostaRica"
         />
 
     <TextView
@@ -96,11 +103,11 @@
         />
     <View
         android:id="@+id/viewEEUU"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewCostaRica"
@@ -111,12 +118,11 @@
         android:id="@+id/imageEEUU"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/eeuu_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewEEUU"
         app:layout_constraintTop_toTopOf="@+id/viewEEUU"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEEUU"
         />
 
     <TextView
@@ -134,11 +140,11 @@
         />
     <View
         android:id="@+id/viewMexico"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewEEUU"
@@ -149,12 +155,11 @@
         android:id="@+id/imageMexico"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/mexico_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewMexico"
         app:layout_constraintTop_toTopOf="@+id/viewMexico"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMexico"
         />
 
     <TextView
@@ -172,3 +177,4 @@
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -32,7 +32,9 @@
         />
     <View
         android:id="@+id/viewRodrygo"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -46,12 +48,11 @@
         android:id="@+id/imageRodrygo"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/rodrygo"
         app:layout_constraintBottom_toBottomOf="@+id/viewRodrygo"
         app:layout_constraintTop_toTopOf="@+id/viewRodrygo"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewRodrygo"
         />
 
     <TextView
@@ -69,7 +70,9 @@
         />
     <View
         android:id="@+id/viewVini"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -83,12 +86,11 @@
         android:id="@+id/imageVini"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/vini"
         app:layout_constraintBottom_toBottomOf="@+id/viewVini"
         app:layout_constraintTop_toTopOf="@+id/viewVini"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewVini"
         />
 
     <TextView
@@ -106,7 +108,9 @@
         />
     <View
         android:id="@+id/viewPedri"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -120,12 +124,11 @@
         android:id="@+id/imagePedri"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/pedri"
         app:layout_constraintBottom_toBottomOf="@+id/viewPedri"
         app:layout_constraintTop_toTopOf="@+id/viewPedri"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPedri"
         />
 
     <TextView
@@ -143,7 +146,9 @@
         />
     <View
         android:id="@+id/viewMusiala"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -157,12 +162,11 @@
         android:id="@+id/imageMusiala"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/musiala"
         app:layout_constraintBottom_toBottomOf="@+id/viewMusiala"
         app:layout_constraintTop_toTopOf="@+id/viewMusiala"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMusiala"
         />
 
     <TextView
@@ -180,7 +184,9 @@
         />
     <View
         android:id="@+id/viewBellingham"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -194,12 +200,11 @@
         android:id="@+id/imageBellingham"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/bellingham"
         app:layout_constraintBottom_toBottomOf="@+id/viewBellingham"
         app:layout_constraintTop_toTopOf="@+id/viewBellingham"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBellingham"
         />
 
     <TextView
@@ -217,7 +222,9 @@
         />
     <View
         android:id="@+id/viewJulian"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -231,12 +238,11 @@
         android:id="@+id/imageJulian"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/julian"
         app:layout_constraintBottom_toBottomOf="@+id/viewJulian"
         app:layout_constraintTop_toTopOf="@+id/viewJulian"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewJulian"
         />
 
     <TextView
@@ -254,7 +260,9 @@
         />
     <View
         android:id="@+id/viewTchouameni"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -268,12 +276,11 @@
         android:id="@+id/imageTchouameni"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/tchouameni"
         app:layout_constraintBottom_toBottomOf="@+id/viewTchouameni"
         app:layout_constraintTop_toTopOf="@+id/viewTchouameni"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewTchouameni"
         />
 
     <TextView
@@ -291,7 +298,9 @@
         />
     <View
         android:id="@+id/viewLeao"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -305,12 +314,11 @@
         android:id="@+id/imageLeao"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/leao"
         app:layout_constraintBottom_toBottomOf="@+id/viewLeao"
         app:layout_constraintTop_toTopOf="@+id/viewLeao"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewLeao"
         />
 
     <TextView
@@ -328,7 +336,9 @@
         />
     <View
         android:id="@+id/viewCamavinga"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -342,12 +352,11 @@
         android:id="@+id/imageCamavinga"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/camavinga"
         app:layout_constraintBottom_toBottomOf="@+id/viewCamavinga"
         app:layout_constraintTop_toTopOf="@+id/viewCamavinga"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCamavinga"
         />
 
     <TextView
@@ -365,10 +374,13 @@
         />
     <View
         android:id="@+id/viewValverde"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewCamavinga"
@@ -379,12 +391,11 @@
         android:id="@+id/imageValverde"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/valverde"
         app:layout_constraintBottom_toBottomOf="@+id/viewValverde"
         app:layout_constraintTop_toTopOf="@+id/viewValverde"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewValverde"
         />
 
     <TextView

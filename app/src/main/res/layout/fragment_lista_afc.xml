@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="false"
+    >
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ListaAfc"
-    android:background="@drawable/background_lista_afc">
+    android:background="@drawable/background_lista_afc"
+    >
 
     <ImageView
         android:id="@+id/afc"
@@ -13,6 +23,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/afc"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@id/viewSeleccion"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,11 +31,11 @@
 
     <View
         android:id="@+id/viewSeleccion"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/afc"
@@ -35,12 +46,11 @@
         android:id="@+id/imageViewSeleccion"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/arabia_saudita_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccion"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccion"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccion"
         />
 
     <TextView
@@ -58,7 +68,8 @@
         />
     <View
         android:id="@+id/viewAustralia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
@@ -73,12 +84,11 @@
         android:id="@+id/imageAustralia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/australia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewAustralia"
         app:layout_constraintTop_toTopOf="@+id/viewAustralia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAustralia"
         />
 
     <TextView
@@ -96,7 +106,8 @@
         />
     <View
         android:id="@+id/viewCatar"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
@@ -111,12 +122,11 @@
         android:id="@+id/imageCatar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/catar_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCatar"
         app:layout_constraintTop_toTopOf="@+id/viewCatar"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCatar"
         />
 
     <TextView
@@ -134,7 +144,8 @@
         />
     <View
         android:id="@+id/viewCorea"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
@@ -149,12 +160,11 @@
         android:id="@+id/imageCorea"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/corea_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewCorea"
         app:layout_constraintTop_toTopOf="@+id/viewCorea"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCorea"
         />
 
     <TextView
@@ -172,7 +182,8 @@
         />
     <View
         android:id="@+id/viewIran"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
@@ -187,12 +198,11 @@
         android:id="@+id/imageIran"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/iran_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewIran"
         app:layout_constraintTop_toTopOf="@+id/viewIran"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewIran"
         />
 
     <TextView
@@ -210,7 +220,8 @@
         />
     <View
         android:id="@+id/viewJapon"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="@color/white"
@@ -226,12 +237,11 @@
         android:id="@+id/imageJapon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/japan_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewJapon"
         app:layout_constraintTop_toTopOf="@+id/viewJapon"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewJapon"
         />
 
     <TextView
@@ -248,3 +258,4 @@
         app:layout_constraintLeft_toLeftOf="@id/viewJapon"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

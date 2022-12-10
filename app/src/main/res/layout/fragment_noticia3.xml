@@ -16,7 +16,7 @@
     <ImageView
         android:id="@+id/ImagenNoticia"
         android:layout_width="match_parent"
-        android:layout_height="231dp"
+        android:layout_height="202dp"
         android:src="@drawable/noticia3_image"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -115,7 +115,9 @@
         />
     <View
         android:id="@+id/viewMencionSeleccion"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -129,12 +131,11 @@
         android:id="@+id/imageViewSeleccion"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/argentina_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewMencionSeleccion"
         app:layout_constraintTop_toTopOf="@+id/viewMencionSeleccion"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMencionSeleccion"
         />
 
     <TextView
@@ -152,7 +153,9 @@
         />
     <View
         android:id="@+id/viewMencionjugador"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="20dp"
@@ -167,12 +170,11 @@
         android:id="@+id/image_jugador_mencionado"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/messi"
         app:layout_constraintBottom_toBottomOf="@+id/viewMencionjugador"
         app:layout_constraintTop_toTopOf="@+id/viewMencionjugador"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMencionjugador"
         />
 
     <TextView

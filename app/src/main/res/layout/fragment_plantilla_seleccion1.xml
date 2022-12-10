@@ -55,7 +55,9 @@
         />
     <View
         android:id="@+id/viewSeleccionador"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -69,12 +71,11 @@
         android:id="@+id/imageSeleccionador"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/luis_enrique"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccionador"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccionador"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccionador"
         />
     <TextView
         android:id="@+id/nombreJugador"
@@ -105,7 +106,9 @@
         />
     <View
         android:id="@+id/viewDavidRaya"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -119,12 +122,11 @@
         android:id="@+id/imageDavidRaya"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/raya"
         app:layout_constraintBottom_toBottomOf="@+id/viewDavidRaya"
         app:layout_constraintTop_toTopOf="@+id/viewDavidRaya"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewDavidRaya"
         />
     <TextView
         android:id="@+id/textGolesPartido"
@@ -154,7 +156,9 @@
         />
     <View
         android:id="@+id/viewRobertSanchez"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -167,12 +171,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/robert"
         app:layout_constraintBottom_toBottomOf="@+id/viewRobertSanchez"
         app:layout_constraintTop_toTopOf="@+id/viewRobertSanchez"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewRobertSanchez"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -201,7 +204,9 @@
         />
     <View
         android:id="@+id/viewUnaiSimon"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -214,12 +219,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/simon"
         app:layout_constraintBottom_toBottomOf="@+id/viewUnaiSimon"
         app:layout_constraintTop_toTopOf="@+id/viewUnaiSimon"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewUnaiSimon"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -262,7 +266,9 @@
         />
     <View
         android:id="@+id/viewAzpilicueta"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -275,12 +281,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/azpi"
         app:layout_constraintBottom_toBottomOf="@+id/viewAzpilicueta"
         app:layout_constraintTop_toTopOf="@+id/viewAzpilicueta"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAzpilicueta"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -309,7 +314,9 @@
         />
     <View
         android:id="@+id/viewEric"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -322,12 +329,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/eric"
         app:layout_constraintBottom_toBottomOf="@+id/viewEric"
         app:layout_constraintTop_toTopOf="@+id/viewEric"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEric"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -356,7 +362,9 @@
         />
     <View
         android:id="@+id/viewPauTorres"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -369,12 +377,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/pau_torres"
         app:layout_constraintBottom_toBottomOf="@+id/viewPauTorres"
         app:layout_constraintTop_toTopOf="@+id/viewPauTorres"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPauTorres"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -403,7 +410,9 @@
         />
     <View
         android:id="@+id/viewBalde"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -416,12 +425,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/balde"
         app:layout_constraintBottom_toBottomOf="@+id/viewBalde"
         app:layout_constraintTop_toTopOf="@+id/viewBalde"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBalde"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -450,7 +458,9 @@
         />
     <View
         android:id="@+id/viewGuillamon"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -463,12 +473,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/guillamon"
         app:layout_constraintBottom_toBottomOf="@+id/viewGuillamon"
         app:layout_constraintTop_toTopOf="@+id/viewGuillamon"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewGuillamon"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -497,7 +506,9 @@
         />
     <View
         android:id="@+id/viewAlba"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -510,12 +521,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/alba"
         app:layout_constraintBottom_toBottomOf="@+id/viewAlba"
         app:layout_constraintTop_toTopOf="@+id/viewAlba"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAlba"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -544,7 +554,9 @@
         />
     <View
         android:id="@+id/viewCarvajal"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -557,12 +569,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/carvajal"
         app:layout_constraintBottom_toBottomOf="@+id/viewCarvajal"
         app:layout_constraintTop_toTopOf="@+id/viewCarvajal"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewCarvajal"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -591,7 +602,9 @@
         />
     <View
         android:id="@+id/viewLaporte"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -604,12 +617,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/laporte"
         app:layout_constraintBottom_toBottomOf="@+id/viewLaporte"
         app:layout_constraintTop_toTopOf="@+id/viewLaporte"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewLaporte"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -652,7 +664,9 @@
         />
     <View
         android:id="@+id/viewBusi"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -665,12 +679,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/busi"
         app:layout_constraintBottom_toBottomOf="@+id/viewBusi"
         app:layout_constraintTop_toTopOf="@+id/viewBusi"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBusi"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -699,7 +712,9 @@
         />
     <View
         android:id="@+id/viewLlorente"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -712,12 +727,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/llorente"
         app:layout_constraintBottom_toBottomOf="@+id/viewLlorente"
         app:layout_constraintTop_toTopOf="@+id/viewLlorente"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewLlorente"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -746,7 +760,9 @@
         />
     <View
         android:id="@+id/viewKoke"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -759,12 +775,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/koke"
         app:layout_constraintBottom_toBottomOf="@+id/viewKoke"
         app:layout_constraintTop_toTopOf="@+id/viewKoke"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewKoke"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -793,7 +808,9 @@
         />
     <View
         android:id="@+id/viewGavi"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -806,12 +823,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/gavi"
         app:layout_constraintBottom_toBottomOf="@+id/viewGavi"
         app:layout_constraintTop_toTopOf="@+id/viewGavi"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewGavi"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -840,7 +856,9 @@
         />
     <View
         android:id="@+id/viewRodri"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -853,12 +871,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/rodri"
         app:layout_constraintBottom_toBottomOf="@+id/viewRodri"
         app:layout_constraintTop_toTopOf="@+id/viewRodri"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewRodri"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -887,7 +904,9 @@
         />
     <View
         android:id="@+id/viewYeremy"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -900,12 +919,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/yeremy"
         app:layout_constraintBottom_toBottomOf="@+id/viewYeremy"
         app:layout_constraintTop_toTopOf="@+id/viewYeremy"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewYeremy"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -934,7 +952,9 @@
         />
     <View
         android:id="@+id/viewSoler"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -947,12 +967,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/soler"
         app:layout_constraintBottom_toBottomOf="@+id/viewSoler"
         app:layout_constraintTop_toTopOf="@+id/viewSoler"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSoler"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -981,7 +1000,9 @@
         />
     <View
         android:id="@+id/viewOlmo"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -994,12 +1015,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/olmo"
         app:layout_constraintBottom_toBottomOf="@+id/viewOlmo"
         app:layout_constraintTop_toTopOf="@+id/viewOlmo"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewOlmo"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1028,7 +1048,9 @@
         />
     <View
         android:id="@+id/viewSarabia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1041,12 +1063,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/sarabia"
         app:layout_constraintBottom_toBottomOf="@+id/viewSarabia"
         app:layout_constraintTop_toTopOf="@+id/viewSarabia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSarabia"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1075,7 +1096,9 @@
         />
     <View
         android:id="@+id/viewPedri"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1088,12 +1111,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/pedri"
         app:layout_constraintBottom_toBottomOf="@+id/viewPedri"
         app:layout_constraintTop_toTopOf="@+id/viewPedri"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPedri"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1136,7 +1158,9 @@
         />
     <View
         android:id="@+id/viewMorata"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1149,12 +1173,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/morata"
         app:layout_constraintBottom_toBottomOf="@+id/viewMorata"
         app:layout_constraintTop_toTopOf="@+id/viewMorata"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewMorata"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1183,7 +1206,9 @@
         />
     <View
         android:id="@+id/viewAsensio"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1196,12 +1221,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/asensio"
         app:layout_constraintBottom_toBottomOf="@+id/viewAsensio"
         app:layout_constraintTop_toTopOf="@+id/viewAsensio"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAsensio"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1230,7 +1254,9 @@
         />
     <View
         android:id="@+id/viewFerran"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1243,12 +1269,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ferran"
         app:layout_constraintBottom_toBottomOf="@+id/viewFerran"
         app:layout_constraintTop_toTopOf="@+id/viewFerran"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewFerran"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1277,7 +1302,9 @@
         />
     <View
         android:id="@+id/viewWilliams"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1290,12 +1317,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/williams"
         app:layout_constraintBottom_toBottomOf="@+id/viewWilliams"
         app:layout_constraintTop_toTopOf="@+id/viewWilliams"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewWilliams"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -1324,7 +1350,9 @@
         />
     <View
         android:id="@+id/viewAnsu"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -1338,12 +1366,11 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ansu"
         app:layout_constraintBottom_toBottomOf="@+id/viewAnsu"
         app:layout_constraintTop_toTopOf="@+id/viewAnsu"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewAnsu"
         />
     <TextView
         android:layout_width="wrap_content"

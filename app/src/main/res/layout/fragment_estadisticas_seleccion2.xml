@@ -140,7 +140,9 @@
         />
     <View
         android:id="@+id/viewGolesPartido"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="20dp"
@@ -177,7 +179,9 @@
         />
     <View
         android:id="@+id/viewGolesContra"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="20dp"
@@ -213,7 +217,9 @@
         />
     <View
         android:id="@+id/viewTotalAsistencias"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="20dp"
@@ -249,8 +255,8 @@
         />
     <View
         android:id="@+id/viewCuadroEstadisticas"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintTop_toBottomOf="@id/viewTotalAsistencias"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -262,8 +268,8 @@
 
     <View
         android:id="@+id/viewGoles"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toTopOf="@id/viewTiro"
         app:layout_constraintLeft_toLeftOf="@id/viewCuadroEstadisticas"
@@ -271,8 +277,8 @@
         app:layout_constraintTop_toTopOf="@id/viewCuadroEstadisticas" />
     <View
         android:id="@+id/viewTiro"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toBottomOf="@id/viewCuadroEstadisticas"
         app:layout_constraintLeft_toLeftOf="@id/viewCuadroEstadisticas"
@@ -280,8 +286,8 @@
         app:layout_constraintTop_toBottomOf="@id/viewGoles" />
     <View
         android:id="@+id/viewAsistencias"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toTopOf="@id/viewPase"
         app:layout_constraintLeft_toRightOf="@id/viewGoles"
@@ -289,8 +295,8 @@
         app:layout_constraintTop_toTopOf="@id/viewCuadroEstadisticas" />
     <View
         android:id="@+id/viewPase"
-        android:layout_width="176dp"
-        android:layout_height="176dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:background="@drawable/style_estadisticas"
         app:layout_constraintBottom_toBottomOf="@id/viewCuadroEstadisticas"
         app:layout_constraintLeft_toRightOf="@id/viewTiro"
@@ -302,7 +308,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Goles"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewGoles"
@@ -315,7 +321,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1.0"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/textoGoles"
         app:layout_constraintLeft_toLeftOf="@id/viewGoles"
@@ -341,7 +347,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2.0"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/textoAsistencias"
         app:layout_constraintLeft_toLeftOf="@id/viewAsistencias"
@@ -353,7 +359,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Posesion"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#9D142F"
         app:layout_constraintTop_toBottomOf="@id/tiroJugador"
@@ -367,7 +373,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="68%"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewTiro"
         app:layout_constraintLeft_toLeftOf="@id/viewTiro"
@@ -393,7 +399,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="85%"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textColor="#9D142F"
         app:layout_constraintTop_toTopOf="@id/viewPase"
         app:layout_constraintLeft_toLeftOf="@id/viewPase"

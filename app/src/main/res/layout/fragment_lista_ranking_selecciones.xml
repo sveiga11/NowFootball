@@ -44,7 +44,9 @@
         />
     <View
         android:id="@+id/viewSeleccionador"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -58,12 +60,11 @@
         android:id="@+id/imageSeleccionador"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/brasil_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeleccionador"
         app:layout_constraintTop_toTopOf="@+id/viewSeleccionador"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewSeleccionador"
         />
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/dorsalJugador"
@@ -92,7 +93,9 @@
         />
     <View
         android:id="@+id/viewBelgica"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -106,12 +109,11 @@
         android:id="@+id/imageBelgica"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/belgica_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewBelgica"
         app:layout_constraintTop_toTopOf="@+id/viewBelgica"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewBelgica"
         />
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageBelgicaTop"
@@ -140,7 +142,9 @@
         />
     <View
         android:id="@+id/viewArgentina"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -154,12 +158,11 @@
         android:id="@+id/imageArgentina"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/argentina_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewArgentina"
         app:layout_constraintTop_toTopOf="@+id/viewArgentina"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewArgentina"
         />
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageArgentinaTop"
@@ -188,7 +191,9 @@
         />
     <View
         android:id="@+id/viewFrancia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -202,12 +207,11 @@
         android:id="@+id/imageFrancia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/francia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewFrancia"
         app:layout_constraintTop_toTopOf="@+id/viewFrancia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewFrancia"
         />
 
     <TextView
@@ -225,7 +229,9 @@
         />
     <View
         android:id="@+id/viewInglaterra"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -239,12 +245,11 @@
         android:id="@+id/imageInglaterra"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/inglaterra_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewInglaterra"
         app:layout_constraintTop_toTopOf="@+id/viewInglaterra"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewInglaterra"
         />
 
     <TextView
@@ -275,7 +280,9 @@
         android:textColor="#9D142F"/>
     <View
         android:id="@+id/viewItalia"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:backgroundTint="#7D7D7D"
@@ -290,12 +297,11 @@
         android:id="@+id/imageItalia"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/italia_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewItalia"
         app:layout_constraintTop_toTopOf="@+id/viewItalia"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewItalia"
         />
 
     <TextView
@@ -326,7 +332,9 @@
         />
     <View
         android:id="@+id/viewEspaña"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -340,12 +348,11 @@
         android:id="@+id/imageEspaña"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/espana_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewEspaña"
         app:layout_constraintTop_toTopOf="@+id/viewEspaña"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewEspaña"
         />
 
     <TextView
@@ -363,7 +370,9 @@
         />
     <View
         android:id="@+id/viewPaisesBajos"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -377,12 +386,11 @@
         android:id="@+id/imagePaisesBajos"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/paises_bajos_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewPaisesBajos"
         app:layout_constraintTop_toTopOf="@+id/viewPaisesBajos"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPaisesBajos"
         />
 
     <TextView
@@ -400,7 +408,9 @@
         />
     <View
         android:id="@+id/viewPortugal"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:background="@drawable/border_radius"
         android:layout_marginTop="10dp"
@@ -414,12 +424,11 @@
         android:id="@+id/imagePortugal"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/portugal_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewPortugal"
         app:layout_constraintTop_toTopOf="@+id/viewPortugal"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewPortugal"
         />
 
     <TextView
@@ -437,7 +446,9 @@
         />
     <View
         android:id="@+id/viewDinamarca"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
@@ -451,11 +462,10 @@
         android:id="@+id/imageDinamarca"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="21.5dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/dinamarca_image"
         app:layout_constraintBottom_toBottomOf="@+id/viewDinamarca"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/viewDinamarca"
         app:layout_constraintTop_toTopOf="@+id/viewDinamarca"
         />
 
