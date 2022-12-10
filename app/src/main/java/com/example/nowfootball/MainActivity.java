@@ -10,6 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.example.nowfootball.databinding.ActivityMainBinding;
 
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                     // Top-level destinations:
-                    R.id.home, R.id.descubrir, R.id.partidos, R.id.siguiendo, R.id.noticiasMarcadas
+                    R.id.home, R.id.descubrir, R.id.partidos, R.id.siguiendo, R.id.noticiasMarcadas, R.id.editarPerfil
             )
                     .setOpenableLayout(binding.drawerLayout)
                     .build();
@@ -56,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
                         navDestination.getId() == R.id.inicio_on_delay2 ||
                         navDestination.getId() == R.id.crearCuenta ||
                         navDestination.getId() == R.id.opcion_de_inicio ||
-                        navDestination.getId() == R.id.editarPerfil ||
                         navDestination.getId() == R.id.verificarCuenta ||
                         navDestination.getId() == R.id.recuperarContrasena1||
                         navDestination.getId() == R.id.recuperarContrasena2 ||
@@ -113,6 +113,12 @@ public class MainActivity extends AppCompatActivity {
                     binding.bottomNavView.setVisibility(View.VISIBLE);
                 }
             });
+        }
+        public void MensajeNoticiaMarcada(View view){
+            Toast.makeText(this, "Noticia Marcada", Toast.LENGTH_SHORT).show();
+        }
+        public void MensajePerfilActualizado(View view){
+        Toast.makeText(this, "Perfil Actualizado", Toast.LENGTH_SHORT).show();
         }
 
     }

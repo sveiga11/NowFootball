@@ -44,12 +44,12 @@ public class EditarPerfil extends Fragment {
 
         actualizarPerfil = view.findViewById(R.id.botonActualizarPerfil);
 
-        actualizarPerfil.setOnClickListener(new View.OnClickListener() {
+        /*actualizarPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_editarPerfil_to_home);
             }
-        });
+        });*/
 
         final RippleBackground rippleBackground=(RippleBackground) view.findViewById(R.id.content);
         ImageView imageView=(ImageView) view.findViewById(R.id.imagenVerificado);
