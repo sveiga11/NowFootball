@@ -39,7 +39,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@id/graficoPartidos"
         />
-    <View
+
+    <org.eazegraph.lib.charts.PieChart
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/graficoPartidos"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:padding="8dp"
+        app:egLegendTextSize="18sp"
+        app:egUsePieRotation="true"
+        app:egValueTextSize="36sp"
+        app:layout_constraintTop_toBottomOf="@id/nombreSeleccion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/viewGolesPartido"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--<View
         android:id="@+id/graficoPartidos"
         android:layout_width="170dp"
         android:layout_height="170dp"
@@ -137,7 +154,7 @@
         app:layout_constraintBottom_toBottomOf="@id/graficoPartidos"
         android:elevation="5dp"
         android:layout_marginBottom="20dp"
-        />
+        />-->
     <View
         android:id="@+id/viewGolesPartido"
         android:layout_width="match_parent"
